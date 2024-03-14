@@ -34,6 +34,7 @@ header h1 {
     font-style: normal;
     letter-spacing: .2rem;
     padding-top: 2px;
+    padding-left: 20px;
 }
 
 header a {
@@ -49,13 +50,52 @@ header a {
 /* Hero photo */
 
 .hero {
+    display: flex;
     height: 80vh;
     width: 100%;
     background-image: url("../images/hero1.jpg");
     background-size: cover;
     background-position: center;
     border-bottom: var(--darkblue) solid 4px;
+    justify-content: center;
+    align-items: center;
 }
+
+.heroContainer {
+    margin: auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.heroText h2 {
+    font-size: 60px;
+    font-family: "Noto Sans", sans-serif;
+    color: var(--lightblue);
+}
+
+.heroText {
+    margin-right: 40px;
+}
+
+.heroText p{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 20px;
+    font-size: 700;
+}
+
+.heroImg {
+    width: 300px;
+    height: 300px;
+}
+
+.heroImg  img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
 
 /* I saw a repeating pattern with flex container with sidebar and content*/
 .container {
