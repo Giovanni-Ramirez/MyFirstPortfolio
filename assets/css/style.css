@@ -121,6 +121,7 @@ header a {
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
     width: 100%;
     padding: 10px;
     margin: 0 60px 0 20px;
@@ -226,4 +227,22 @@ footer a {
 footer .card:nth-child(1) {
     width: 100%;
     height: 300px;
+}
+
+footer p {
+    text-decoration: underline;
+    font-family: "Noto Sans", sans-serif;
+    color: var(--darkblue);
+}
+
+.contactInfo div{
+    margin: auto;
+}
+
+.ContactInfo {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
 }
